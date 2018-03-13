@@ -1,6 +1,6 @@
 <?php
 
-if (!($db = new mysqli('localhost', 'root', '1', 'math'))) {
+if (!($db = new mysqli('localhost', 'root', '', 'math'))) {
 	printf("Невозможно отктыть базу данных");
 	exit(1);
 }

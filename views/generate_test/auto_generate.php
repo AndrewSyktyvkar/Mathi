@@ -11,7 +11,7 @@ if (!($template = file($_FILES['templatefile']['tmp_name']))) {
 	exit(1);
 }
 
-if (!($db = new mysqli('localhost', 'root', '1', 'math'))) {
+if (!($db = new mysqli('localhost', 'root', '', 'math'))) {
 	printf("Невозможно отктыть базу данных");
 	exit(1);
 }
